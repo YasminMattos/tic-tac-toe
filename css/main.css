@@ -4,19 +4,28 @@
 }
 
 .board {
-    margin: 100px auto 0;
-    border-collapse: collapse; /*no utiliza boder en la tbla*/
+    border-top: 1px hidden;
+    border-bottom: 1px hidden;
+    border-collapse: collapse; 
+    margin: 100px auto 0;    
+}
+
+.board tr {
+  border-right: 1px hidden;
+  border-left: 1px hidden;
 }
 
 .board td {
-    width: 150px;
-    height: 150px;
-    border: 3px solid rgb(140, 139, 173);
-    text-align: center;
+    border: 3px solid #000;
     font-weight: 500;
+    font-size: 70px;
+    height: 150px;
+    text-align: center;
+    width: 150px;
 }
 
-.board td:hover {
-    background-color: lightcoral;
-    
+button {
+    padding: 10px;
+    border-radius: 7px 7px 7px 7px;
+    outline: none;
 }
