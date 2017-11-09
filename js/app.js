@@ -11,6 +11,7 @@ function addX (event) {
     else 
         event.target.textContent = 'O';
     centinel = !centinel;
+    board.removeEventListener('click', addX);
 }
 /*
 function verificaFin(O,X){
@@ -30,6 +31,7 @@ function verificaFin(O,X){
     return fin;
 }
 */
+
 var clear = document.querySelector('.clear');
 clear.addEventListener('click',reset);
 
