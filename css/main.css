@@ -24,8 +24,17 @@
     width: 150px;
 }
 
-button {
-    padding: 10px;
+.clear {
+    padding: 15px;
     border-radius: 7px 7px 7px 7px;
     outline: none;
+    transform: translateX(150px);
+    background-color: #4fbcdf;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.clear:hover {
+    background-color: #1dda59;
 }

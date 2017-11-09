@@ -30,7 +30,9 @@ function verificaFin(O,X){
     return fin;
 }
 */
+var clear = document.querySelector('.clear');
+clear.addEventListener('click',reset);
 
-function clear() {
-    document.getElementsByClassName('board').reset();
+function reset() {
+    window.location.reload();
 }
